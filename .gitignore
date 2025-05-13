@@ -3,3 +3,5 @@
 # Datos
 data/
 Titanic\nprojects/titanic/data/
+projects/titanic/api/__pycache__/main.cpython-311.pyc
+projects/titanic/api/model.pkl

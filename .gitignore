@@ -5,3 +5,7 @@ data/
 Titanic\nprojects/titanic/data/
 projects/titanic/api/__pycache__/main.cpython-311.pyc
 projects/titanic/api/model.pkl
+projects/titanic/api/__pycache__/model.cpython-311.pyc
+projects/titanic/api/__pycache__/predict.cpython-311.pyc
+projects/titanic/api/__pycache__/shemas.cpython-311.pyc
+projects/titanic/model.pkl

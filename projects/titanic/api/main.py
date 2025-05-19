@@ -6,5 +6,5 @@ app = FastAPI()
 
 @app.post("/predict")
 def predict(passenger: Passenger):
-    result = predict_passenger(passenger.dict())
+    result = predict_passenger(passenger.model_dump())
     return {"prediction": result}

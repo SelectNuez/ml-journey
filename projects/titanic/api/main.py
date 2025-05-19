@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from projects.titanic.api.shemas import Passenger
-from projects.titanic.api.predict import predict_passenger
+from .schemas import Passenger
+from .predict import predict_passenger
 
 app = FastAPI()
 

@@ -9,7 +9,11 @@ def test_predict_survivor():
         "Pclass": 1,
         "Sex": 1,
         "Age": 30.0,
-        "Fare": 100.0
+        "Fare": 100.0,
+        "SibSp": 0,
+        "Parch": 0,
+        "Embarked": "S",
+        "Title": "Miss"
     }
     
     response = client.post("/predict", json=payload)

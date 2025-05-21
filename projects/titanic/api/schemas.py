@@ -5,3 +5,7 @@ class Passenger(BaseModel):
     Sex: int
     Age: float
     Fare: float
+    SibSp: int
+    Parch: int
+    Embarked: str
+    Title: str  
